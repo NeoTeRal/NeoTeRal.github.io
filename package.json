@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -i ./docs/styles/tailwind.css -o ./docs/styles/style.css --watch"
+    "dev": "rm ./docs/styles/style.css && npx tailwindcss -i ./docs/styles/tailwind.css -o ./docs/styles/style.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.12"
