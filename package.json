@@ -1,5 +1,16 @@
 {
+  "name": "neoteral.github.io",
+  "version": "1.0.0",
+  "description": "NeoTeRal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./docs/styles/tailwind.css -o ./docs/styles/style.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.12"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
